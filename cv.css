@@ -1,0 +1,114 @@
+*{
+ font-family: Avenir,Arial, Helvetica, sans-serif;   
+ padding: 0;
+ text-align: justify;
+ box-sizing: border-box;
+}
+body{
+    background: #e6e1e1;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.presentation a:hover{
+    background:none;
+    transition:all 5.3s ease;
+    text-decoration: none;
+    color:#000;
+}
+header,footer{
+    width: 100%;
+    padding: 20px 0px;
+    background: url("../images/Picture_05_Stream.jpg");
+    box-shadow: 0px 0px 0px #333;
+}
+header{
+    border-bottom: 2px solid#fff;
+    height: 120px;
+}
+header h1{
+    color: #ffff;
+    font-size: 1.5em;
+    width: 90%;
+    margin: 0 auto;
+}
+/*sections*/ 
+section {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px #bbb;
+    background-color: #fff;
+}
+section h2{
+    margin: 20px 0;
+    width: 90%;
+}
+section >div{
+    width: 90%;
+}
+.photo{
+    text-align: center;
+}
+.photo img{
+    width: 130px;
+    height: 150px;
+    border: 3px solid #fff;
+    box-shadow:0px 0px 0px #777;
+    border-radius: 50%;
+    margin-top: -80px;
+}
+.presentation{
+    border-bottom: 2px dashed #ccc;
+}
+.presentation a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px auto 30px auto;
+    color:#fff;
+    background-color: #EA0;
+    box-shadow: 0px 0px 10px #ccc;
+    border-radius: 5px;
+}
+.contact-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+.contact-flex p:first-child{
+        flex:0 0 40%;
+    }
+    .contact-flex p:last-child{
+      flex:  0 0 60%;
+    }
+    .social{
+        display: flex;
+        justify-content: space-around;
+        margin: 10px auto 0px auto;
+    }
+    .social img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    @media screen and (min-width: 980px) {
+      section{
+        width: 80%;
+        box-shadow: 0px 0px 10px #bbb;
+      }
+        a:hover{
+            color:#EA0;
+        }
+            header h1{
+                width: 80%;
+            }
+        }
+            
+
+        
+    
